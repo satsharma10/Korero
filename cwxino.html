@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html> 
+<head>
+  <title> KORERO </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="xino.css">
+</head>
+
+<body>
+<center><img class="top" src="4j0v8e.tif.png" alt="KORERO" width=50% height=50%>
+<h1>Just Korero It</h1></center>
+
+
+<div class="container">
+<p align="center"><font color="white" family="source sans" size=50px> Experience a clutter-free interface</font> </p>
+
+<center> <font color="white" family="comics sans">Clean & Innovative </font> </center>
+
+
+ <img class="free" src="Image -4@2x.png" alt="clutter-free environment">
+</div>
+
+<div class="text">
+<h1> Categorise all your <br> mails into folders.</h1>
+
+
+<p align="right"><button class="btn">Event Related</button> <br>
+<button class="btnfam">Family</button> <br>
+<button class="btnsecret">Secrets</button>
+</p>
+</div>
+
+<div class="text">
+<h1> Protect yourself <br> from suspicious mails. </h1>
+<br> <br>
+<font color="blue"> Korero automatically blocks all dangerous messages.</font>
+<p align="right"> Congratulations, you have won an <br>iPhone X!<br>
+<font size=10px color="lightgrey"> To claim your award, just visit the link..." </font> </p>
+</div>
+
+<div id="js">
+ <p align="center"><button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+</p>
+
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("text");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+</script>
+<div class="container">
+<center><div class="remind">
+
+<h3> Reminder for registering to Korero. </h3> 
+
+<br>
+<p align="left">
+Korero is an all new and innovative, revolutionary mailing service.
+<br> Get your hands on before anyone else.
+<br> <br>
+Get and @korero mail today.
+<br>
+<br>
+Sincerely, <br>
+Kevin.
+</p>
+</div>
+</center>
+</div>
+</body>
+</html>
